@@ -70,10 +70,7 @@ footer p {
 }
 /* HEADER */
 
-body {
-    width: 1024px;
-    margin: 0 auto;
-}
+
 
 
 header {
@@ -146,6 +143,12 @@ footer {
         font-weight: 600;
         line-height: 1.2rem;
     }
+
+    body {
+    width: 1024px;
+    margin: 0 auto;
+    }
+    
     .info {
         padding: 0em 3.3em 5em;
     }
