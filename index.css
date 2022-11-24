@@ -108,6 +108,9 @@ header {
     color: black;
 }
 
+.flex-row-item {
+    padding-bottom: 2em;
+}
 /* BTN VIEW MORE */
 
 .view-more {
