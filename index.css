@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -111,6 +111,48 @@ header {
 .flex-row-item {
     padding-bottom: 2em;
 }
+
+.info a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* MAIN BLOG */
+
+.main-blog {
+    margin-top: 2em;
+}
+
+.main-container {
+    padding: 0em 1.2em;
+}
+
+.main-blog-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 2.1em;
+    border-radius: 5px;
+}
+
+.main-data {
+    margin-bottom: 1em;
+}
+
+.main-blog-info {
+    margin-top: 2.1em;
+}
+
+.main-blog-info h4, p {
+    padding-bottom: 1em;
+}
+
+.recent-posts {
+    margin-top: 3em;
+    text-align: center;
+}
+
+
 /* BTN VIEW MORE */
 
 .view-more {
@@ -168,6 +210,7 @@ footer {
     .blog-info {
         font-size: 1rem;
         line-height: 1.2rem;
+        margin-top: 2em;
     }
 
     .data-wrapper {
@@ -191,6 +234,14 @@ footer {
         padding-top: 2.5em;
     }
 
+    .main-blog {
+        padding: 0em 3.3em;
+    }
+    
+    .main-blog-img {
+        min-width:100%;
+        min-height:100%;
+    }
     
 }
 
