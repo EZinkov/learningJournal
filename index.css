@@ -234,7 +234,8 @@ footer {
         padding-top: 2.5em;
     }
 
-    .main-blog {
+    .main-blog,
+    .main-blog-info {
         padding: 0em 3.3em;
     }
     
